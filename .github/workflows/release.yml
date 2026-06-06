@@ -97,7 +97,7 @@ jobs:
           apt-ftparchive -c apt-ftparchive-release.conf release dists/stable > dists/stable/Release
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: apt-repo
 
